@@ -1,5 +1,12 @@
+import Button from './components/button/Button';
+
 const App = () => {
-  return <h1>REACT</h1>;
+  return (
+    <>
+      <Button />
+      <img src='/assets/images/casas.jpg' alt='' />
+    </>
+  );
 };
 
 export default App;
